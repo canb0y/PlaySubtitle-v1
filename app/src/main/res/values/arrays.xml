@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <array name="vosk_model_labels">
+        <item>@string/br</item>
+        <item>@string/ca</item>
+        <item>@string/zh</item>
+        <item>@string/cs</item>
+        <item>@string/nl</item>
+        <item>@string/en_in</item>
+        <item>@string/en_us</item>
+        <item>@string/eo</item>
+        <item>@string/fr</item>
+        <item>@string/de</item>
+        <item>@string/gu</item>
+        <item>@string/hi</item>
+        <item>@string/it</item>
+        <item>@string/ja</item>
+        <item>@string/kk</item>
+        <item>@string/ko</item>
+        <item>@string/fa</item>
+        <item>@string/pl</item>
+        <item>@string/pt</item>
+        <item>@string/ru</item>
+        <item>@string/es</item>
+        <item>@string/sv</item>
+        <item>@string/tg</item>
+        <item>@string/tr</item>
+        <item>@string/uk</item>
+        <item>@string/uz</item>
+        <item>@string/vi</item>
+    </array>
+        
+    <array name="vosk_model_values">
+        <item>@string/br_value</item>
+        <item>@string/ca_value</item>
+        <item>@string/zh_value</item>
+        <item>@string/cs_value</item>
+        <item>@string/nl_value</item>
+        <item>@string/en_in_value</item>
+        <item>@string/en_us_value</item>
+        <item>@string/eo_value</item>
+        <item>@string/fr_value</item>
+        <item>@string/de_value</item>
+        <item>@string/gu_value</item>
+        <item>@string/hi_value</item>
+        <item>@string/it_value</item>
+        <item>@string/ja_value</item>
+        <item>@string/kk_value</item>
+        <item>@string/ko_value</item>
+        <item>@string/fa_value</item>
+        <item>@string/pl_value</item>
+        <item>@string/pt_value</item>
+        <item>@string/ru_value</item>
+        <item>@string/es_value</item>
+        <item>@string/sv_value</item>
+        <item>@string/tg_value</item>
+        <item>@string/tr_value</item>
+        <item>@string/uk_value</item>
+        <item>@string/uz_value</item>
+        <item>@string/vi_value</item>
+    </array>
+    
+    <array name="translator_labels">
+        <item>@string/language_none</item>
+        <item>@string/language_ar</item>
+        <item>@string/language_az</item>
+        <item>@string/language_ca</item>
+        <item>@string/language_zh</item>
+        <item>@string/language_cs</item>
+        <item>@string/language_da</item>
+        <item>@string/language_nl</item>
+        <item>@string/language_en</item>
+        <item>@string/language_eo</item>
+        <item>@string/language_fi</item>
+        <item>@string/language_fr</item>
+        <item>@string/language_de</item>
+        <item>@string/language_el</item>
+        <item>@string/language_he</item>
+        <item>@string/language_hi</item>
+        <item>@string/language_hu</item>
+        <item>@string/language_id</item>
+        <item>@string/language_ga</item>
+        <item>@string/language_it</item>
+        <item>@string/language_ja</item>
+        <item>@string/language_ko</item>
+        <item>@string/language_fa</item>
+        <item>@string/language_pl</item>
+        <item>@string/language_pt</item>
+        <item>@string/language_ru</item>
+        <item>@string/language_sk</item>
+        <item>@string/language_es</item>
+        <item>@string/language_sv</item>
+        <item>@string/language_tr</item>
+        <item>@string/language_uk</item>
+    </array>
+    
+    <array name="translator_values">
+        <item>@string/small_none</item>
+        <item>@string/small_ar</item>
+        <item>@string/small_az</item>
+        <item>@string/small_ca</item>
+        <item>@string/small_cn</item>
+        <item>@string/small_cs</item>
+        <item>@string/small_da</item>
+        <item>@string/small_nl</item>
+        <item>@string/small_en_us</item>
+        <item>@string/small_eo</item>
+        <item>@string/small_fi</item>
+        <item>@string/small_fr</item>
+        <item>@string/small_de</item>
+        <item>@string/small_el</item>
+        <item>@string/small_he</item>
+        <item>@string/small_hi</item>
+        <item>@string/small_hu</item>
+        <item>@string/small_id</item>
+        <item>@string/small_ga</item>
+        <item>@string/small_it</item>
+        <item>@string/small_ja</item>
+        <item>@string/small_ko</item>
+        <item>@string/small_fa</item>
+        <item>@string/small_pl</item>
+        <item>@string/small_pt</item>
+        <item>@string/small_ru</item>
+        <item>@string/small_sk</item>
+        <item>@string/small_es</item>
+        <item>@string/small_sv</item>
+        <item>@string/small_tr</item>
+        <item>@string/small_uk</item>
+    </array>
+    
+    <array name="list_items_labels">
+        <item>@string/name_asc</item>
+        <item>@string/name_des</item>
+        <item>@string/size_asc</item>
+        <item>@string/size_des</item>
+        <item>@string/date_asc</item>
+        <item>@string/date_des</item>
+    </array>
+    
+    <array name="list_items_values">
+        <item>@string/name_asc_value</item>
+        <item>@string/name_des_value</item>
+        <item>@string/size_asc_value</item>
+        <item>@string/size_des_value</item>
+        <item>@string/date_asc_value</item>
+        <item>@string/date_des_value</item>
+    </array>
+    
+    <array name="samplerate_names">
+        <item>@string/default_samplerate</item>
+        <item>@string/veryhigh</item>
+        <item>@string/high</item>
+        <item>@string/medium</item>
+        <item>@string/low</item>
+    </array>
+    
+    <array name="samplerate_values">
+        <item>@string/default_samplerate_value</item>
+        <item>@string/veryhigh_value</item>
+        <item>@string/high_value</item>
+        <item>@string/medium_value</item>
+        <item>@string/low_value</item>
+    </array>
+    
+    <array name="channel_name">
+        <item>@string/default_channel</item>
+        <item>@string/mono</item>
+        <item>@string/stereo</item>
+    </array>
+    
+    <array name="channel_value">
+        <item>@string/default_channel_value</item>
+        <item>@string/mono_value</item>
+        <item>@string/stereo_value</item>
+    </array>
+</resources>        

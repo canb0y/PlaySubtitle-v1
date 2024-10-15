@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item
+         android:id="@+id/details"
+         android:title="Details" />
+     <item
+         android:id="@+id/assign_subtitle"
+         android:title="Assign subtitle" />
+     <item
+         android:id="@+id/extract_audio"
+         android:title="Extract audio" />
+     <item
+         android:id="@+id/transcribe_voice"
+         android:title="Transcribe voice" />
+     <item
+         android:id="@+id/rename"
+         android:title="Rename" />
+     <item
+         android:id="@+id/delete"
+         android:title="Delete" />
+     <item
+         android:id="@+id/share"
+         android:title="Share" />
+</menu>         

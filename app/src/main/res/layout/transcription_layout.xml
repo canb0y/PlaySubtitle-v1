@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="#8000"
+     android:gravity="center">
+     <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/window_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            android:text="Please wait a moment..."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#009688"/>
+       <TextView
+            android:id="@+id/info_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp"
+            android:text="This process may take a long time due to the speech recognition's latency. Press Back to terminate it."
+            android:textSize="14sp"
+            android:textColor="#000000"/>     
+       <LinearLayout
+        android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#009688"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:background="@drawable/rounded_corner" />
+		<TextView
+			android:id="@+id/output_message"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:padding="8dp"
+			android:text="Initializing model..."
+			android:textSize="14sp"
+			android:textColor="#FFFFFF"
+			android:layout_weight="1" />
+       </LinearLayout>    
+    </LinearLayout>    
+</LinearLayout>

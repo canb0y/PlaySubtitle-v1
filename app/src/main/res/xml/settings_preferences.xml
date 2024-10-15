@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   <PreferenceCategory
+       android:key="general_settings"
+       android:title="General Settings">
+       <SwitchPreference
+          android:defaultValue="true"
+          android:key="@string/vibration_switch_key"
+          android:title="Vibration"
+          android:summary="Enable or disable vibration for video player's user interface" />
+       <CheckBoxPreference
+          android:defaultValue="false"
+          android:key="@string/timeformat_key"
+          android:title="Time format"
+          android:summaryOn="12 hours"
+          android:summaryOff="24 hours" />
+       <com.itbn.playsubtitle.v1.settings.NumberPickerPreference
+          android:defaultValue="20"
+          android:key="@string/font_size_key"
+          android:title="Subtitle font size"
+          android:summary="Adjust font size for subtitle" />
+       <ListPreference
+          android:defaultValue="@string/date_des_value"
+          android:key="@string/sortlist_key"
+          android:entries="@array/list_items_labels"
+          android:entryValues="@array/list_items_values"
+          android:title="@string/sortlist_name"
+          android:summary="@string/sortlist_description" />
+   </PreferenceCategory>
+   <PreferenceCategory
+      android:key="@string/language_key"
+      android:title="Languages">
+      <ListPreference
+          android:defaultValue="@string/small_none"
+          android:key="@string/translator_key"
+          android:entries="@array/translator_labels"
+          android:entryValues="@array/translator_values"
+          android:title="@string/translator_title"
+          android:summary="@string/translator_description" />
+      <ListPreference
+          android:defaultValue="@string/en_us_value"
+          android:key="@string/vosk_preference_key"
+          android:entries="@array/vosk_model_labels"
+          android:entryValues="@array/vosk_model_values"
+          android:title="@string/vosk_model_title"
+          android:summary="@string/vosk_preference_description" />
+   </PreferenceCategory>
+   <PreferenceCategory
+      android:key="@string/config_key"
+      android:enabled="false"
+      android:title="Model Configuration">       
+      <com.itbn.playsubtitle.v1.settings.ValidatedEditTextPreference
+          android:defaultValue="@string/min_active_period"
+          android:key="@string/min_active_key"
+          android:inputType="numberDecimal|numberSigned"
+          android:title="@string/min_active_title"
+          android:summary="@string/min_active_description" />
+      <com.itbn.playsubtitle.v1.settings.ValidatedEditTextPreference
+          android:defaultValue="@string/max_active_period"
+          android:key="@string/max_active_key"
+          android:inputType="numberDecimal|numberSigned"
+          android:title="@string/max_active_title"
+          android:summary="@string/max_active_description" />
+    </PreferenceCategory>
+    <PreferenceCategory
+       android:key="audio_settings"
+       android:title="Audio Output">
+       <ListPreference
+           android:defaultValue="@string/default_samplerate_value"
+           android:key="@string/samplerate_key"
+           android:entries="@array/samplerate_names"
+           android:entryValues="@array/samplerate_values"
+           android:title="Sample Rate"
+           android:summary="@string/samplerate_description" />
+       <ListPreference
+           android:defaultValue="@string/default_channel_value"
+           android:key="@string/channel_key"
+           android:entries="@array/channel_name"
+           android:entryValues="@array/channel_value"
+           android:title="Channel"
+           android:summary="@string/channel_description" />  
+    </PreferenceCategory>   
+</PreferenceScreen>          

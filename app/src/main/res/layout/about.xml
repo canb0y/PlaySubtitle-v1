@@ -1,0 +1,115 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:padding="8dp"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingRight="8dp"
+			android:text="PlaySubtitle"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:textColor="#009688" />
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="v1.0"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+	<androidx.cardview.widget.CardView
+		android:id="@+id/cardview1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="16dp"
+		android:layout_marginTop="16dp"
+		android:layout_marginRight="16dp"
+		app:cardElevation="8dp"
+		app:cardCornerRadius="8dp">
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="PlaySubtitle v1 is a video player that handles closed captioning and audio extraction for locally stored videos in MP4/3GP format. It has inbuilt ASR for recognizing and transcribing voice dialogues into subtitle in various languages.\n\nThis version uses Android's native media API, and includes the following open-sourced projects:"
+				android:textSize="14sp"
+				android:textColor="#000000" />
+			<TextView
+				android:id="@+id/textview5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="VOSK Speech Recognition"
+				android:textSize="14sp"
+				android:textColor="#009688"
+				android:foreground="?android:selectableItemBackground" />
+			<TextView
+				android:id="@+id/textview6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="LibreTranslate"
+				android:textSize="14sp"
+				android:textColor="#009688"
+				android:foreground="?android:selectableItemBackground" />
+			<TextView
+				android:id="@+id/textview7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="AndroidResampler"
+				android:textSize="14sp"
+				android:textColor="#009688"
+				android:foreground="?android:selectableItemBackground" />
+			<TextView
+				android:id="@+id/textview9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="It is suitable for the type of videos that has a single speaker and no sound effects such as music."
+				android:textSize="14sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+	<LinearLayout
+		android:id="@+id/linear2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="16dp"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<TextView
+			android:id="@+id/textview4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dp"
+			android:paddingRight="2dp"
+			android:text="About the author:"
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview8"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="2dp"
+			android:text="https://github.com/canb0y"
+			android:textSize="14sp"
+			android:textColor="#009688"
+			android:foreground="?android:selectableItemBackground" />
+	</LinearLayout>
+</LinearLayout>
